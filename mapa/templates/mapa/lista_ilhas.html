@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="{% static 'mapa/css/style.css' %}">
 </head>
 <body>
+    <a href="{% url 'planilha' %}" 
+   style="position: fixed; top: 20px; right: 20px; text-decoration: none;">
+   <div class="card shadow text-center" style="width: 200px;">
+       <div class="card-body p-3">
+           <img src="{% static 'mapa/icons/icon_planilha.png' %}" 
+                alt="Planilha" style="width:50px; height:50px;" class="mb-2">
+           <h6 class="card-title mb-0">Planilha 15 Wanted Semanal</h6>
+       </div>
+   </div>
+</a>
     <div class="container">
         <h1 class="my-4">Ilhas do Major-GLA</h1>
         <div class="row">

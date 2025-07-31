@@ -41,3 +41,6 @@ def detalhe_ilha_categoria(request, ilha_id, categoria):
         'categoria': categoria,
         'nome_categoria': nome_categoria,
     })
+
+def planilha_view(request):
+    return render(request, 'mapa/planilha.html')
